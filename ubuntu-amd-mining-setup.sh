@@ -13,8 +13,8 @@ sudo apt dist-upgrade
 sudo apt install -y wget
 
 # Download AMD GPU Driver
-wget --referer https://www.amd.com/en/support/kb/release-notes/rn-amdgpu-unified-linux-21-30 https://drivers.amd.com/drivers/linux/amdgpu-pro-21.30-1290604-ubuntu-20.04.tar.xz
-tar xJf amdgpu-pro-21.30-1290604-ubuntu-20.04.tar.xz
+wget --referer https://www.amd.com/en/support/kb/release-notes/rn-amdgpu-unified-linux-22-20 https://drivers.amd.com/drivers/linux/amdgpu-pro-22.20-1290604-ubuntu-20.04.tar.xz
+tar xJf amdgpu-pro-22.20-1290604-ubuntu-20.04.05.tar.xz
 
 # Install Driver Software
 cd amdgpu-pro-21.30-1290604-ubuntu-20.04/
